@@ -3,7 +3,7 @@ var server = http.createServer();  //创建http.server对象实例
 server.on("request",handle);
 
 function handle(request,response){
-	response.write("<b>This is a test</b>");
+	response.write("<h1>This is a test</h1>");
 	response.end();
 }
 
